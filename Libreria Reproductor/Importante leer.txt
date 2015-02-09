@@ -1,0 +1,6 @@
+La tarea funcionará correctamente con la librería "Javazoom"
+en caso de que no la tenga instalada, en este paquete
+está el jar, para que la pueda instalar
+y asi funcione sin problemas la tarea...
+
+Kevin Santamaria - 20131003662
