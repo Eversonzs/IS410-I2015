@@ -11,7 +11,8 @@ public class Sucursal {
 	private double ingresoPromedio;
 	
 	private Supervisor supervisor;
-	private ArrayList<Vendedor> vendedores;
+	private ArrayList<Vendedor> vendedores =
+			new ArrayList<Vendedor>();
 	
 	public Sucursal(double metaMensual, 
 			String nombre, 
@@ -96,6 +97,7 @@ public class Sucursal {
 	public void addVendedor(Vendedor vendedor){
 		vendedores.add(vendedor);
 	}
+	
 	public Vendedor getVendedor(int indice){
 		return vendedores.get(indice);
 	}
